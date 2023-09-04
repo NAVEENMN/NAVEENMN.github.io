@@ -8314,4 +8314,11 @@ a > img.fh5co-align-center {
   margin-right: auto;
 }
 
+.project-separator {
+  border: none;
+  height: 1px;
+  background: #333;  /* Line color */
+  margin: 20px 0;   /* Vertical spacing */
+}
+
 /*# sourceMappingURL=style.css.map */
