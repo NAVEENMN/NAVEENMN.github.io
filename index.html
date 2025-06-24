@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 	<head>
 	<meta charset="utf-8">
@@ -81,30 +80,45 @@
 			<div class="container">
 				<div class="row row-padded">
 					<div class="col-md-12 text-center">
-						<h5>Hello! I am an interdisciplinary software engineer, rooted in a tradition of exploration that began with side projects during my school days, encompassing application software development, data science, cloud computing, machine learning, and complex system design and architecture. With a master's degree in computer science from UNC Charlotte and a bachelor's degree in electrical engineering from PES University, my journey has evolved from pursuing innovation for its own sake to tackling meaningful problems related to personal and public health, sustainability, biodiversity loss, AI alignment, and education reform. Alongside my professional endeavors, my passion for science, engineering, and philosophy continues to drive my curiosity and dedication to creating solutions with real-world impact.
+						<h5>
+							Hello! I'm Naveen Mysore — a versatile software and research engineer with experience spanning robust system design and cutting-edge machine learning. 
+							I've built and deployed scalable infrastructure at Salesforce and now contribute to state-of-the-art AI research at UC Santa Barbara. 
+							With a master's degree in Computer Science from UNC Charlotte and a bachelor's in Electrical Engineering from PES University, 
+							I work at the intersection of engineering and scientific inquiry. My skillset covers backend development, cloud computing (AWS, Terraform), data pipelines, model fine-tuning (SFT, PPO, RLHF), 
+							and uncertainty quantification. I thrive in roles that demand both engineering rigor and experimental insight.
+							Whether you're building production systems or pushing the boundaries of ML research, I bring a pragmatic, systems-thinking approach 
+							to solving problems in domains like healthcare, sustainability, and AI safety. I'm driven by curiosity, guided by impact, and passionate 
+							about turning bold ideas into real-world solutions.
+						</h5>
+					</div>
 				</div>
 			</div>
 
 			<hr class="project-separator">
-			<h3>Recent Endeavors</h3>
+			<h3>Recent</h3>
 
 			<div class="row">
 				<div id="fh5co-board" data-columns>
 
 				<div class="item">
 					<div class="animate-box">
-						<a href="images/projects/epsilon_greedy.gif" class="image-popup fh5co-board-img" ><img src="images/projects/epsilon_greedy.gif" alt="epsilon_greedy"></a>
-							<div class="fh5co-desc"><a href="https://en.wikipedia.org/wiki/Multi-armed_bandit">N arm bandits</a> is a classical problem in computer science. In this Jupyter note book we will empirically verify that near greedy approch converges to optimal values faster than non greedy or greedy approches and maximizes the expected rewards. 
-								<a href="https://github.com/NAVEENMN/ReinforcementLearning/blob/main/upper_confidence_bound.ipynb">Jupyter Notebook</a>
+						<a href="images/qr.png" class="image-popup fh5co-board-img" ><img src="images/qr.png" alt="QR Code for Nutrition Demo"></a>
+							<div class="fh5co-desc">
+								<h4>Live Nutrition Estimation Demo</h4>
+								<p>Scan the QR code above to try our live nutrition estimation service! Text a meal description like "I had a bagel for breakfast" and get instant nutrition analysis. This LLM was trained on the <a href="https://arxiv.org/abs/2407.12843">NutriBench dataset</a> and fine-tuned using Reinforcement Learning on the Llama3.1B model. The inference model is hosted on AWS for real-time responses.</p>
+								<a href="https://github.com/naveen-mysore/Reinft">GitHub Repository</a>
 							</div>
 					</div>
 				</div>
 
 				<div class="item">
 					<div class="animate-box">
-						<a href="images/projects/causality.gif" class="image-popup fh5co-board-img" ><img src="images/projects/causality.gif" alt="causality"></a>
-							<div class="fh5co-desc"><a href="https://en.wikipedia.org/wiki/Causal_analysis">Causal Structure Discovery</a> is the problem of identifying causal relationships from large quantities of data through computational methods. Solution to this problem can have wide of applications in non empirical scientific studies like climate, biodiversity and health. The current problem is existing methods are computationally not scalable and are data intensive.
-								<a href="https://github.com/NAVEENMN/csdi/blob/master/causal_discovery_pcmci.ipynb">Jupyter Notebook</a>
+						<a href="images/projects/markovianess.png" class="image-popup fh5co-board-img" ><img src="images/projects/markovianess.png" alt="Markovianess"></a>
+							<div class="fh5co-desc">
+								<h4>Markovianess: Quantifying First-Order Markov Violations in Noisy Reinforcement Learning</h4>
+								<p>Novel Markov Violation score (MVS) to detect when noise or incomplete state information disrupts the Markov assumption in reinforcement learning. Using classic control tasks, its shown that removing causally essential state variables significantly impacts both returns and Markov consistency. This framework enables robust policy development for real-world RL scenarios with partial observability.</p>
+								<p><strong>Status:</strong> Under review for NeurIPS 2025</p>
+								<a href="https://arxiv.org/abs/2503.00206">arXiv Paper</a>
 							</div>
 					</div>
 				</div>
@@ -113,9 +127,28 @@
 			</div>
 
 			<hr class="project-separator"> 
-			<h3>Projects from School & College Years</h3>
+			<h3>Projects</h3>
 			<div class="row">
 				<div id="fh5co-board" data-columns>
+				
+				<div class="item">
+					<div class="animate-box">
+						<a href="images/projects/epsilon_greedy.gif" class="image-popup fh5co-board-img" ><img src="images/projects/epsilon_greedy.gif" alt="epsilon_greedy"></a>
+							<div class="fh5co-desc"><a href="https://en.wikipedia.org/wiki/Multi-armed_bandit">N arm bandits</a> is a classical problem in computer science. In this Jupyter note book we will empirically verify that near greedy approch converges to optimal values faster than non greedy or greedy approches and maximizes the expected rewards. 
+								<a href="https://github.com/NAVEENMN/ReinforcementLearning/blob/main/upper_confidence_bound.ipynb">Jupyter Notebook</a>
+							</div>
+					</div>
+				</div>
+	
+				<div class="item">
+					<div class="animate-box">
+						<a href="images/projects/causality.gif" class="image-popup fh5co-board-img" ><img src="images/projects/causality.gif" alt="causality"></a>
+							<div class="fh5co-desc"><a href="https://en.wikipedia.org/wiki/Causal_analysis">Causal Structure Discovery</a> is the problem of identifying causal relationships from large quantities of data through computational methods. Solution to this problem can have wide of applications in non empirical scientific studies like climate, biodiversity and health. The current problem is existing methods are computationally not scalable and are data intensive.
+								<a href="https://github.com/NAVEENMN/csdi/blob/master/causal_discovery_pcmci.ipynb">Jupyter Notebook</a>
+							</div>
+					</div>
+				</div>	
+
 
 				<div class="item">
 						<div class="animate-box">
@@ -126,17 +159,6 @@
 						</div>
 				</div>
 
-                <div class="item">
-        		<div class="animate-box">
-                          <a href="images/projects/simons_cat_web.gif" class="image-popup fh5co-board-img" title="Cartoon to realistic video conversion.">
-                            <img src="images/projects/simons_cat_web.gif" alt="sim">
-                          </a>
-        		</div>
-                        <div class="fh5co-desc">Cartoon to realistic video generation using Conditional adverserial net.
-                    <a href="https://vimeo.com/237310933">demo</a>
-                </div>
-        	</div>
-
 			<div class="item">
         		<div class="animate-box">
 	        		<a href="images/projects/sorting_bot.gif" class="image-popup fh5co-board-img" ><img src="images/projects/sorting_bot.gif" alt="TrashSorter"></a>
@@ -146,21 +168,11 @@
         		</div>
         	</div>
 
-        	<div class="item">
-        		<div class="animate-box">
-	        		<a href="images/projects/gta.gif" class="image-popup fh5co-board-img" title="Behaviour cloning on GTAV using Deep Conv net."><img src="images/projects/gta.gif" alt="GTAV"></a>
-        		</div>
-        		<div class="fh5co-desc">Self Driving based on behaviour cloning on GTAV using Deep Conv net.
-                    <a href="https://github.com/NAVEENMN/PersonalArchives/tree/master/GTAV_Behaviour_Cloning.">details</a>
-                    <a href="https://vimeo.com/221087186">demo</a>
-                </div>
-        	</div>
-
 			<div class="item">
         		<div class="animate-box">
-	        		<a href="images/projects/dino.gif" class="image-popup fh5co-board-img" ><img src="images/projects/dino.gif" alt="RDino"></a>
-	        		<div class="fh5co-desc">Q Learning based Chrome Dino game.
-                        <a href="https://github.com/NAVEENMN/PersonalArchives/tree/master/RDino">details</a>
+	        		<a href="images/projects/flappy.gif" class="image-popup fh5co-board-img" ><img src="images/projects/flappy.gif" alt="RDino"></a>
+	        		<div class="fh5co-desc">Reinforcement Learning (Q Learning based) agent trained to play Flappy Bird.
+                        <a href="https://vimeo.com/214713705">demo</a>
                     </div>
         		</div>
         	</div>
@@ -172,14 +184,7 @@
                     </div>
         		</div>
         	</div>
-            <div class="item">
-                <div class="animate-box">
-                    <a href="images/projects/navigate.gif" class="image-popup fh5co-board-img"><img src="images/projects/navigate.gif" alt="SDrone"></a>
-                    <div class="fh5co-desc">Semi behaviour clone and reinforcement learning based drone navigation.
-                        <a href="https://github.com/NAVEENMN/PersonalArchives/tree/master/SDrone">details</a>
-                    </div>
-                </div>
-            </div>
+
         	<div class="item">
         		<div class="animate-box">
 	        		<a href="images/projects/latent.gif" class="image-popup fh5co-board-img"><img src="images/projects/latent.gif" alt="Latent"></a>
@@ -188,46 +193,11 @@
                     </div>
         		</div>
         	</div>
-        	<div class="item">
-        		<div class="animate-box">
-	        		<a href="images/projects/mathvr.gif" class="image-popup fh5co-board-img"><img src="images/projects/mathvr.gif" alt=""></a>
-	        		<div class="fh5co-desc">Learning Math with Virtual reality.
-                      <a href="https://github.com/NAVEENMN/PersonalArchives">details</a>
-                      <a href="https://vimeo.com/202667837">demo</a>
-                    </div>
-        		</div>
-        	</div>
-        	<div class="item">
-        		<div class="animate-box">
-	        		<a href="images/projects/autodrone.gif" class="image-popup fh5co-board-img"><img src="images/projects/autodrone.gif" alt=""></a>
-	        		<div class="fh5co-desc">Creating spacial awareness for drone.
-                        <a href="https://github.com/NAVEENMN/PersonalArchives">details</a>
-                        <a href="https://vimeo.com/197194403">demo</a>
-                    </div>
-        		</div>
-        	</div>
-        	<div class="item">
-        		<div class="animate-box">
-	        		<a href="images/projects/visualreview.gif" class="image-popup fh5co-board-img"><img src="images/projects/visualreview.gif" alt="Free HTML5 Bootstrap template"></a>
-	        		<div class="fh5co-desc">Gesture interactions based visual reviews.
-                        <a href="https://github.com/NAVEENMN/PersonalArchives">details</a>
-                        <a href="https://vimeo.com/193300664">demo</a>
-                    </div>
-        		</div>
-        	</div>
             <div class="item">
                 <div class="animate-box">
                     <a href="images/projects/metster.jpg" class="image-popup fh5co-board-img"><img src="images/projects/metster.jpg" alt="Free HTML5 Bootstrap template"></a>
                     <div class="fh5co-desc">Recommendation system based on distance-preference matching. Demo <a href="https://www.youtube.com/watch?v=oIUesgeWESs">link</a> Available on Google app store
                         <a href="https://play.google.com/store/apps/details?id=com.nmetster.metster&hl=en">download</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="animate-box">
-                    <a href="images/projects/gp1.jpg" class="image-popup fh5co-board-img"><img src="images/projects/gp1.jpg" alt="Free HTML5 Bootstrap template"></a>
-                    <div class="fh5co-desc">Recommendation system based on group preference matching.
-                        Available on Iphone app store <a href="https://itunes.apple.com/us/app/grep/id1120986602?ls=1&mt=8">download</a>
                     </div>
                 </div>
             </div>
@@ -245,16 +215,8 @@
         		<div class="animate-box">
 	        		<a href="images/papers/gna.png" class="image-popup fh5co-board-img"><img src="images/papers/gna.png" alt="Free HTML5 Bootstrap template"></a>
 	        		<div class="fh5co-desc">"Processor Enabled power management system by mechanically choosing the best batteries in a grid network" in the proceedings of CIMSIM 2011"
-                    <a href="http://ieeexplore.ieee.org/document/6076370/?tp=&arnumber=6076370&url=http:%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6076370"> full paper </a>
+                    <a href="http://ieeexplore.ieee.org/document/6076370/?tp=&arnumber=6076370"> full paper </a>
                     <a href="https://vimeo.com/193302706">demo</a>
-                    </div>
-        		</div>
-        	</div>
-        	<div class="item">
-        		<div class="animate-box">
-	        		<a href="images/papers/GCT.png" class="image-popup fh5co-board-img"><img src="images/papers/GCT.png" alt="Free HTML5 Bootstrap template"></a>
-	        		<div class="fh5co-desc">"Gesture and character tracing interactive lecture board in the internation journal of advanced computing"
-                        <a href="http://www.ijact.org/">link</a>
                     </div>
         		</div>
         	</div>
@@ -289,14 +251,7 @@
                     </div>
         		</div>
         	</div>
-        	<div class="item">
-        		<div class="animate-box">
-	        		<a href="images/projects/gesturebot.png" class="image-popup fh5co-board-img"><img src="images/projects/gesturebot.png" alt="Free HTML5 Bootstrap template"></a>
-	        		<div class="fh5co-desc">Yahoo Open Hack(2011) Gesture based robot control.
-                    <a href="https://www.youtube.com/watch?v=HfBqAxohu5k">demo</a>
-                    </div>
-        		</div>
-        	</div>
+
         </div>
         </div>
        </div>
